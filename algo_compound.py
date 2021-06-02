@@ -21,7 +21,7 @@ while N > 0:
 
 print('If you don´t compound, you will get ', cap_final(1), 'ALGOS')
 print('Best period to composite earnings is each ', years*365/N,'days')
-print('Your capital after one year is nearly ', capfinal, ' ALGOS')
+print('Your capital after ',years, ' year/s is nearly ', capfinal, ' ALGOS')
 print('You can also composite monhtly and get ', cap_final(12.0*years), ' ALGOS')
 print('Or even weekly and get ', cap_final(52*years), ' ALGOS')
 print('Finally, if you compound daily you will get ', cap_final(365), ' ALGOS')
